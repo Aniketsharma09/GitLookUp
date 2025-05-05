@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitLookUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/250px-GitHub_Invertocat_Logo.svg.png" alt="">
+            </div>
+            <h1>GitLookUp</h1>
+        </nav>
+        <form class="github" action="">
+            <label class="lable" for="username">Enter Github User Name</label>
+            <input class="username" type="text" placeholder="Enter user name ">
+            <button>Submit</button>
+        </form>
+        <section class="userDetails">
+            <div class="left">
+                <div class="img">
+                    <img class="profileimg" src="" alt="">
+                </div>
+                <div class="nameandinfo">
+                    <h2 class="name">User Name</h2>
+                    <h3 class="userbio">user bio</h3>
+                    <a class="profilelink" href="" target="_blank">View On GitHub</a>
+                </div>
+                <div class="followers">
+                    <div class="box">
+                        <h3>repos</h3>
+                        <h2 class="repos">0</h2>
+                    </div>
+                    <div class="box">
+                        <h3>followers</h3>
+                        <h2 class="follower">20</h2>
+                    </div>
+                    <div class="box">
+                        <h3 >following</h3>
+                        <h2 class="following">20</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h2>letast 5 Repo's</h2>
+                <div class="container">
+                </div>
+            </div>
+            <div class="cross">
+                <h3 class="close"><i class="ri-close-fill"></i></h3>
+            </div>
+        </section>
+        <section class="error">
+                <h1>Somthing Went Wrong...</h1>
+                <h1>Please Check Your UserName</h1>
+                <button class="errorbutton">Try Again</button>
+        </section>
+    </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
